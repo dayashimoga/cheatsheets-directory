@@ -1,13 +1,212 @@
 [
   {
-    "auth": "None",
-    "category": "Web & Text",
-    "cors": "unknown",
-    "description": "A static entry",
-    "https": true,
-    "pricing": "Free",
-    "slug": "wikipedia-dumps",
-    "title": "Wikipedia Dumps",
-    "url": "https://example.com"
+    "id": "python-standard-lib",
+    "name": "Python Standard Library",
+    "description": "Common methods for os, sys, json, and datetime.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=python-standard-lib"
+  },
+  {
+    "id": "javascript-es6+",
+    "name": "JavaScript ES6+ Essentials",
+    "description": "Arrow functions, destructuring, and spread operators.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=javascript-es6+"
+  },
+  {
+    "id": "sql-joins-basics",
+    "name": "SQL Joins & Aggregates",
+    "description": "Visual guide to INNER, LEFT, RIGHT, and FULL joins.",
+    "category": "Database",
+    "url": "https://devdocs.io/#q=sql-joins-basics"
+  },
+  {
+    "id": "docker-cli-usage",
+    "name": "Docker CLI & Compose",
+    "description": "Commands for managing containers, images, and volumes.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=docker-cli-usage"
+  },
+  {
+    "id": "git-workflow-pro",
+    "name": "Git Workflow & Branching",
+    "description": "Rebase, cherry-pick, and stash commands explained.",
+    "category": "Development",
+    "url": "https://devdocs.io/#q=git-workflow-pro"
+  },
+  {
+    "id": "css-grid-layout",
+    "name": "CSS Grid Cheatsheet",
+    "description": "Grid-template properties and alignment cheatsheet.",
+    "category": "Design",
+    "url": "https://devdocs.io/#q=css-grid-layout"
+  },
+  {
+    "id": "css-flexbox-guide",
+    "name": "CSS Flexbox One-Pager",
+    "description": "Justify-content, align-items, and flex-grow properties.",
+    "category": "Design",
+    "url": "https://devdocs.io/#q=css-flexbox-guide"
+  },
+  {
+    "id": "markdown-extended",
+    "name": "Markdown & GFM Syntax",
+    "description": "Tables, checklists, and code block formatting.",
+    "category": "Writing",
+    "url": "https://devdocs.io/#q=markdown-extended"
+  },
+  {
+    "id": "vim-shortcuts-all",
+    "name": "Vim Navigation & Editing",
+    "description": "Essential movement and mode switching commands.",
+    "category": "Development",
+    "url": "https://devdocs.io/#q=vim-shortcuts-all"
+  },
+  {
+    "id": "linux-terminal-basic",
+    "name": "Linux Terminal Commands",
+    "description": "File manipulation, permissions, and networking basics.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=linux-terminal-basic"
+  },
+  {
+    "id": "regex-tokens-quick",
+    "name": "Regular Expressions Meta",
+    "description": "Lookaheads, anchors, and grouping tokens.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=regex-tokens-quick"
+  },
+  {
+    "id": "rust-ownership-rules",
+    "name": "Rust Ownership & Borrowing",
+    "description": "Memory management rules for new Rustaceans.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=rust-ownership-rules"
+  },
+  {
+    "id": "go-concurrency-pattern",
+    "name": "Go Routines & Channels",
+    "description": "The 'Don't communicate by sharing memory' guide.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=go-concurrency-pattern"
+  },
+  {
+    "id": "postgresql-pquery",
+    "name": "PostgreSQL Performance",
+    "description": "EXPLAIN ANALYZE and Indexing strategies.",
+    "category": "Database",
+    "url": "https://devdocs.io/#q=postgresql-pquery"
+  },
+  {
+    "id": "react-hooks-cheatsheet",
+    "name": "React Hooks & Lifecycle",
+    "description": "useEffect, useMemo, and useCallback examples.",
+    "category": "Frontend",
+    "url": "https://devdocs.io/#q=react-hooks-cheatsheet"
+  },
+  {
+    "id": "tailwind-css-utility",
+    "name": "Tailwind CSS Layout",
+    "description": "Spacing, sizing, and responsive design classes.",
+    "category": "Frontend",
+    "url": "https://devdocs.io/#q=tailwind-css-utility"
+  },
+  {
+    "id": "typescript-types",
+    "name": "TypeScript Type System",
+    "description": "Interfaces, Types, Unions, and Intersections.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=typescript-types"
+  },
+  {
+    "id": "mongodb-aggregation",
+    "name": "MongoDB Aggregation Pipeline",
+    "description": "$match, $group, and $lookup stage guide.",
+    "category": "Database",
+    "url": "https://devdocs.io/#q=mongodb-aggregation"
+  },
+  {
+    "id": "redis-data-types",
+    "name": "Redis Commands & Types",
+    "description": "Working with Strings, Hashes, Lists, and Sets.",
+    "category": "Database",
+    "url": "https://devdocs.io/#q=redis-data-types"
+  },
+  {
+    "id": "aws-cli-essentials",
+    "name": "AWS CLI S3 & EC2",
+    "description": "Top 20 commands for daily AWS management.",
+    "category": "Cloud",
+    "url": "https://devdocs.io/#q=aws-cli-essentials"
+  },
+  {
+    "id": "kubernetes-kubectl",
+    "name": "Kubectl Cheat Sheet",
+    "description": "Context switching, logs, and port-forwarding.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=kubernetes-kubectl"
+  },
+  {
+    "id": "bash-scripting",
+    "name": "Bash Scripting Basics",
+    "description": "Loops, conditionals, and exit codes.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=bash-scripting"
+  },
+  {
+    "id": "nginx-config-proxy",
+    "name": "Nginx Reverse Proxy",
+    "description": "Common server blocks and SSL configurations.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=nginx-config-proxy"
+  },
+  {
+    "id": "ansible-playbook",
+    "name": "Ansible Playbook Syntax",
+    "description": "YAML structure, tasks, and handler guide.",
+    "category": "DevOps",
+    "url": "https://devdocs.io/#q=ansible-playbook"
+  },
+  {
+    "id": "graphql-schema",
+    "name": "GraphQL Query & Schema",
+    "description": "Mutations, Fragments, and Resolver types.",
+    "category": "API",
+    "url": "https://devdocs.io/#q=graphql-schema"
+  },
+  {
+    "id": "html-semantic-tags",
+    "name": "HTML5 Semantic Elements",
+    "description": "Proper structure for SEO and Accessibility.",
+    "category": "Frontend",
+    "url": "https://devdocs.io/#q=html-semantic-tags"
+  },
+  {
+    "id": "rest-api-design",
+    "name": "REST API Best Practices",
+    "description": "HTTP methods, status codes, and path naming.",
+    "category": "API",
+    "url": "https://devdocs.io/#q=rest-api-design"
+  },
+  {
+    "id": "chrome-devtools",
+    "name": "Chrome DevTools Shortcuts",
+    "description": "Console, Network, and Performance panel tips.",
+    "category": "Development",
+    "url": "https://devdocs.io/#q=chrome-devtools"
+  },
+  {
+    "id": "django-orm-query",
+    "name": "Django ORM Queries",
+    "description": "Filter, exclude, and prefetch_related usage.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=django-orm-query"
+  },
+  {
+    "id": "flask-app-structure",
+    "name": "Flask App Patterns",
+    "description": "Blueprints, factories, and context management.",
+    "category": "Programming",
+    "url": "https://devdocs.io/#q=flask-app-structure"
   }
 ]
